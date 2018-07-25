@@ -1,11 +1,14 @@
-img {
+
+.img-thumbnail {
     float: left;
-    padding-right: 3%;
-    
+    margin-right: 15px;
 }
 
+p {
+    padding-left: 15px;
+    line-height: 2;
+}
 
-.col-md-9 {
-    padding-left: 3%;
-    padding-right: 3%;
+.col-sm-8 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

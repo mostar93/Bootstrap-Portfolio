@@ -10,48 +10,43 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
     
 </head>
-<body>
-    <!-- Image and text -->
-    <header>    
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">
-                Momin Ahmad
-            </a>
-            
-        </nav>
-    </header>
-    <div class="container">
-        <div class="container2">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-9">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h1>About Me</h1>
-                                </div>
-                            </div>
-                            <div class="row">
-                                
-                        </div>
-                    </div>   
-                    <div class="col-md-3">
-                        <div class="card">
-                                <div class="card-header">
-                                  Featured
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">Cras justo odio</li>
-                                </ul>
-                        </div>        
-                    </div>
+<body>         
+    <header>     
+                <nav class="navbar navbar-expand-lg navbar-light bg-white container">
+                <a class="navbar-brand" href="#" style="color: white; background: teal; padding: 15px;"><h2>Momin Ahmad</h2></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-right" rigid="navbarNav">
+                  <ul class="navbar-nav navbar-right">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">About Me</a>
+                    </li>
+                    <li>
+                        <span class="nav-link">|</span>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <span class="nav-link">|</span>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
                 </div>
-            </div>
+            </nav>
+    </header>
+    <div class="container" id="wrapper">
             <div class="row">
-                    <div class="col-md-9">
-                            <hr>
-                            <img src="Images/Brendan-11.jpg" width="300" length="200" id="aboutme">
-                            <p>
+              <div class="col-sm-8">
+                <h2 style="padding-top: 15px; color: teal;">About Me</h2>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <hr>
+                        <img id="bioPic" src="http://via.placeholder.com/200x200" alt="..." class="img-thumbnail">
+                        <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Suspendisse sed leo massa. In maximus, ex ac fermentum faucibus, 
                                 orci lorem mollis nulla, quis lacinia odio neque vel massa. 
@@ -69,24 +64,29 @@
                                 Fusce sit amet interdum est, vel varius augue. Mauris nec leo magna. 
                             </p>
                     </div>
-                    <div class="col-md-3">
-
-                    </div>
+                </div>
+              </div>
+              <div class="col-sm-4" style="padding-top: 15px;">
+                    <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action active">
+                              Cras justo odio
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                          </div>
+                   
+              </div>
+            
             </div>
-
-        
-        
-        
-        
-        
-        </div>
-
     </div>
-
-
-
-
-
+    <footer class="footer">
+        <div class="container">
+          <span class="text-muted" style="color:white;">Copyright</span>
+        </div>
+      </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
